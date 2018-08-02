@@ -1,0 +1,21 @@
+{
+  "name": "symmetry",
+  "version": "1.0.1",
+  "description": "Simple game project for school",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Nerg@bitbucket.org/Nerg/symmetry.git"
+  },
+  "dependencies": {
+    "mongoose": "^4.13.12",
+    "socket.io": "^2.1.0"
+  },
+  "author": "Kamil Jamróz, Artur Kasprzyk",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/Nerg/symmetry#readme"
+}

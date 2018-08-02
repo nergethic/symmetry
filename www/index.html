@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>symmetry</title>
+        <meta charset="utf-8">
+
+        <link rel="stylesheet" href="styles/reset.css">
+        <link rel="stylesheet" href="styles/main.css">
+
+        <script src="libs/jquery-3.2.1.min.js"></script>
+        <script src="libs/socket.io.js"></script>
+        <script src="libs/input.js"></script>
+        <script src="libs/math.js"></script>
+        <script src="libs/misc.js"></script>
+        <script src="libs/time.js"></script>
+        <script src="libs/vector.js"></script>
+        <script src="libs/three.min.js"></script>
+
+        <script src="scripts/core/config.js"></script>
+
+        <script src="scripts/core/ui.js"></script>
+
+        <script src="scripts/core/init.js"></script>
+        <script src="scripts/core/materials.js"></script>
+        <script src="scripts/core/board.js"></script>
+        <script src="scripts/core/main.js"></script>
+
+        <script>
+            let state
+            window.onload = () => {
+                state = init()
+                startGame(state)
+            }
+        </script>
+    </head>
+    <body></body>
+</html>
